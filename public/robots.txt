@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# TODO: Replace with actual domain
+Sitemap: https://brickyardbicycles.com/sitemap.xml
