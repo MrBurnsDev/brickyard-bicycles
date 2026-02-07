@@ -25,8 +25,9 @@ interface LocalBusinessSchema {
 export default function JsonLd() {
   const businessData: LocalBusinessSchema = {
     name: "Brickyard Bicycles",
-    description: "Independent bike shop on Martha's Vineyard offering bicycle sales, service, and professional repairs. Specializing in road, gravel, and performance bikes.",
-    url: "https://brickyardbicycles.com", // TODO: Replace with actual domain
+    description: "Service-driven bike shop on Martha's Vineyard specializing in repairs, custom builds, and long-term care.",
+    url: "https://brickyardbicycles.com",
+    image: "https://brickyardbicycles.com/images/og-image.jpg",
     sameAs: [
       "https://www.instagram.com/brickyardbicycles/",
       "https://www.facebook.com/BrickyardBicycles/",

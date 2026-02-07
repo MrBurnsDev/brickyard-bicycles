@@ -5,36 +5,53 @@ import JsonLd from "@/components/JsonLd";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://brickyardbicycles.com"), // TODO: Replace with actual domain
+  metadataBase: new URL("https://brickyardbicycles.com"),
   title: {
-    default: "Brickyard Bicycles | Bike Shop on Martha's Vineyard",
+    default: "Brickyard Bicycles",
     template: "%s | Brickyard Bicycles",
   },
   description:
-    "Independent bike shop on Martha's Vineyard. Bicycle sales, service, and professional repairs for road, gravel, and performance bikes.",
+    "Service-driven bike shop on Martha's Vineyard specializing in repairs, custom builds, and long-term care.",
   keywords: [
     "bike shop Martha's Vineyard",
     "bicycle repair Martha's Vineyard",
     "cycling Martha's Vineyard",
-    "bike sales Martha's Vineyard",
+    "bike service Martha's Vineyard",
     "road bikes",
     "gravel bikes",
-    "performance bikes",
+    "mountain bikes",
   ],
   authors: [{ name: "Brickyard Bicycles" }],
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
     siteName: "Brickyard Bicycles",
-    title: "Brickyard Bicycles | Bike Shop on Martha's Vineyard",
+    title: "Brickyard Bicycles",
     description:
-      "Independent bike shop on Martha's Vineyard. Bicycle sales, service, and professional repairs.",
+      "Service-driven bike shop on Martha's Vineyard specializing in repairs, custom builds, and long-term care.",
+    images: [
+      {
+        url: "/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Brickyard Bicycles - Martha's Vineyard",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Brickyard Bicycles | Bike Shop on Martha's Vineyard",
+    title: "Brickyard Bicycles",
     description:
-      "Independent bike shop on Martha's Vineyard. Bicycle sales, service, and professional repairs.",
+      "Service-driven bike shop on Martha's Vineyard specializing in repairs, custom builds, and long-term care.",
+    images: ["/images/og-image.jpg"],
   },
   robots: {
     index: true,
