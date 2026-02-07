@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Cycling on Martha's Vineyard",
   description:
-    "Martha's Vineyard is one of the best places to ride on the East Coast. Quiet roads, scenic trails, and a cycling culture unlike anywhere else.",
+    "Cycling on Martha's Vineyard offers a wide range of riding experiences—from separated bike paths to quiet scenic roads. Ocean air, old farm lanes, and terrain that rewards slowing down.",
   openGraph: {
     title: "Cycling on Martha's Vineyard | Brickyard Bicycles",
     description:
-      "Endless trails, bike paths, and quiet roads to explore. There's no bad ride on Martha's Vineyard.",
+      "There are few places where cycling feels as connected to the landscape as it does on Martha's Vineyard.",
   },
 };
 
@@ -32,7 +32,10 @@ export default function CyclingPage() {
             {/* Intro */}
             <div className="space-y-6">
               <p className="text-2xl md:text-3xl leading-relaxed text-foreground">
-                There are few places in the country better for cycling than Martha&apos;s Vineyard. Quiet roads, ocean views at every turn, and a pace of life that rewards slowing down.
+                There are few places in the country where cycling feels as connected to the landscape as it does on Martha&apos;s Vineyard. Ocean air, quiet stretches of road, old farm lanes, and a pace of life that rewards slowing down and paying attention.
+              </p>
+              <p className="editorial-text">
+                The Island offers a wide range of riding experiences—from separated bike paths down-Island to narrow, scenic roads up-Island where awareness and timing matter just as much as fitness.
               </p>
             </div>
 
@@ -42,10 +45,13 @@ export default function CyclingPage() {
             <div className="space-y-4">
               <h2 className="text-2xl md:text-3xl">The Roads</h2>
               <p className="editorial-text">
-                Most of the Island&apos;s main roads have bike lanes or wide shoulders, and drivers are accustomed to sharing the road with cyclists. The terrain is rolling and varied—rarely flat, never boring.
+                Down-Island, many main routes are supported by bike paths or wider shoulders, and cycling is part of everyday transportation. These corridors make it easy to move between towns and are often the most comfortable option for casual riders and families.
               </p>
               <p className="editorial-text">
-                For quieter riding, the back roads through West Tisbury, Chilmark, and Aquinnah offer miles of peaceful pavement past farms, forests, and ocean vistas. Up-island, you can ride for long stretches without seeing a car.
+                Up-Island riding is different. Roads through West Tisbury, Chilmark, Aquinnah, and Menemsha are beautiful and quiet, but they are also narrow, with limited shoulders and fewer dedicated bike lanes. Traffic is generally light, especially early in the day, but riders should be attentive and comfortable sharing the road.
+              </p>
+              <p className="editorial-text">
+                The terrain is rolling and varied—never flat, often rewarding—with long views across fields, stone walls, and the ocean. It&apos;s some of the most memorable riding on the Island, best enjoyed at a thoughtful pace.
               </p>
             </div>
 
@@ -60,10 +66,10 @@ export default function CyclingPage() {
             <div className="space-y-4">
               <h2 className="text-2xl md:text-3xl">Beyond the Pavement</h2>
               <p className="editorial-text">
-                The Island isn&apos;t just paved roads. There are endless trails, old dirt roads, and bike paths winding through conservation land. Gravel bikes and mountain bikes open up even more terrain to explore.
+                Cycling on the Vineyard isn&apos;t limited to paved roads. Old dirt roads, sandy stretches, and conservation trails open up even more of the Island for riders who are properly equipped.
               </p>
               <p className="editorial-text">
-                Separated bike paths connect several towns, making it easy—and safe—to get around without a car. In summer, you can often get places faster by bike than by driving.
+                Gravel and mountain bikes are especially well suited here, offering access to quieter routes and mixed terrain that many visitors never see. Conditions can change quickly, with sand and loose gravel appearing without warning, so tire choice and setup matter.
               </p>
             </div>
 
@@ -73,60 +79,51 @@ export default function CyclingPage() {
             <div className="space-y-4">
               <h2 className="text-2xl md:text-3xl">Routes to Know</h2>
               <p className="editorial-text">
-                <strong className="text-foreground">The State Road Loop</strong> — A classic circuit that touches nearly every town. Rolling terrain with a few memorable climbs and plenty of places to stop.
+                <strong className="text-foreground">State Road Loop</strong> — A classic Island circuit touching multiple towns. Rolling terrain, a few sustained climbs, and plenty of opportunities to stop and explore.
               </p>
               <p className="editorial-text">
-                <strong className="text-foreground">Beach Road to Edgartown</strong> — Flat and direct, with a separated bike path for much of the way. Connects Vineyard Haven and Oak Bluffs to Edgartown along the water.
+                <strong className="text-foreground">Beach Road to Edgartown</strong> — A flatter, more direct ride with a separated bike path for much of the way. A popular and accessible route connecting Vineyard Haven, Oak Bluffs, and Edgartown along the water.
               </p>
               <p className="editorial-text">
-                <strong className="text-foreground">Up-Island to Aquinnah</strong> — The scenic route west. Expect hills, ocean views, and a peaceful pace. The climb to the cliffs is worth every pedal stroke.
+                <strong className="text-foreground">Up-Island to Aquinnah</strong> — A scenic westbound ride with hills, open views, and long quiet stretches. Best ridden early in the day. The climb to the cliffs is demanding and well worth it.
               </p>
             </div>
 
             <hr className="divider-rule" />
 
-            {/* Section: Safe & Accessible */}
+            {/* Section: A Culture of Cycling */}
             <div className="space-y-4">
               <h2 className="text-2xl md:text-3xl">A Culture of Cycling</h2>
               <p className="editorial-text">
-                Martha&apos;s Vineyard has one of the strongest cycling cultures on the East Coast. The Island is compact enough to explore entirely by bike, and there&apos;s a real commitment to making cycling safer and more accessible for everyone.
+                Cycling is deeply woven into life on Martha&apos;s Vineyard. The Island&apos;s size makes it possible to get almost anywhere by bike, and there is an ongoing effort to improve safety and access while preserving the character that makes the Vineyard unique.
               </p>
               <p className="editorial-text">
-                Local advocacy continues to expand bike infrastructure while preserving the character and beauty that makes this place special. It&apos;s a community that takes cycling seriously—without taking itself too seriously.
+                Local riders understand that conditions vary by town, road, and season. Riding here rewards awareness, patience, and respect for the shared space.
               </p>
             </div>
 
             <hr className="divider-rule" />
 
-            {/* Section: Riding Tips */}
+            {/* Section: A Few Local Tips */}
             <div className="space-y-4">
-              <h2 className="text-2xl md:text-3xl">A Few Tips</h2>
+              <h2 className="text-2xl md:text-3xl">A Few Local Tips</h2>
               <ul className="space-y-3">
                 <li className="editorial-text">
                   <strong className="text-foreground">Start early.</strong> Roads are quieter and cooler before 9am, especially in summer.
                 </li>
                 <li className="editorial-text">
-                  <strong className="text-foreground">Bring water.</strong> There aren&apos;t many places to refill up-island.
+                  <strong className="text-foreground">Plan water stops.</strong> Refilling up-Island can be limited.
                 </li>
                 <li className="editorial-text">
-                  <strong className="text-foreground">Respect the pace.</strong> This isn&apos;t a race. Stop for coffee, take photos, enjoy the view.
+                  <strong className="text-foreground">Ride the conditions.</strong> Narrow roads and limited shoulders mean staying alert matters.
                 </li>
                 <li className="editorial-text">
-                  <strong className="text-foreground">Check your tires.</strong> Island roads are generally good, but sand and gravel appear without warning.
+                  <strong className="text-foreground">Watch the surface.</strong> Sand and gravel appear quickly, even on paved roads.
                 </li>
                 <li className="editorial-text">
-                  <strong className="text-foreground">Get your bike dialed.</strong> Proper setup and maintenance make a real difference on these roads. Stop by the shop if you need a tune-up.
+                  <strong className="text-foreground">Get your bike dialed.</strong> Proper setup and maintenance make a real difference on Vineyard roads.
                 </li>
               </ul>
-            </div>
-
-            <hr className="divider-rule" />
-
-            {/* Closing */}
-            <div className="space-y-4 pt-8">
-              <p className="text-xl leading-relaxed text-muted-foreground">
-                Whether you&apos;re here for a day or a season, cycling is the best way to experience the Island. Come by the shop—we&apos;re happy to share our favorite routes and make sure your bike is ready for the ride.
-              </p>
             </div>
           </article>
         </div>
