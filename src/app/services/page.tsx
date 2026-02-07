@@ -61,6 +61,17 @@ const serviceCategories = [
     ],
   },
   {
+    title: "Custom & High-End Bicycles",
+    description:
+      "For riders looking for something more tailored, we offer guidance on custom and performance-focused builds. The same service-first approach applies here—helping you find the right bike, set up properly, and supported for the long run.",
+    items: [
+      "Custom bike consultation and build guidance",
+      "Fit-focused setup and component selection",
+      "Performance road and gravel builds",
+      "Long-term service and support after the sale",
+    ],
+  },
+  {
     title: "Accessories & Gear",
     description:
       "We carry the gear you need to ride safely and comfortably. Helmets, lights, locks, and more—all products we trust and use ourselves.",
