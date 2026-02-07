@@ -90,8 +90,8 @@ export default function AboutPage() {
             <div className="order-first lg:order-last">
               <div className="aspect-[4/5] bg-card overflow-hidden sticky top-8">
                 <Image
-                  src="/images/workshop.jpg"
-                  alt="Brickyard Bicycles workshop"
+                  src="/images/greg-politz.jpg"
+                  alt="Greg Politz at Brickyard Bicycles on Martha's Vineyard"
                   width={600}
                   height={750}
                   className="w-full h-full object-cover"
