@@ -66,9 +66,8 @@ export default function Footer() {
                 Martha&apos;s Vineyard, MA
               </p>
               <div className="flex items-center gap-4 pt-2">
-                {/* Instagram - TODO: Replace with actual URL */}
                 <a
-                  href="https://instagram.com/brickyardbicycles"
+                  href="https://www.instagram.com/brickyardbicycles/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram"
@@ -87,9 +86,8 @@ export default function Footer() {
                     />
                   </svg>
                 </a>
-                {/* Facebook - TODO: Replace with actual URL */}
                 <a
-                  href="https://facebook.com/brickyardbicycles"
+                  href="https://www.facebook.com/BrickyardBicycles/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Facebook"

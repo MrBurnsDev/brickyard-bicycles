@@ -28,8 +28,8 @@ export default function JsonLd() {
     description: "Independent bike shop on Martha's Vineyard offering bicycle sales, service, and professional repairs. Specializing in road, gravel, and performance bikes.",
     url: "https://brickyardbicycles.com", // TODO: Replace with actual domain
     sameAs: [
-      "https://instagram.com/brickyardbicycles", // TODO: Replace with actual Instagram
-      "https://facebook.com/brickyardbicycles", // TODO: Replace with actual Facebook
+      "https://www.instagram.com/brickyardbicycles/",
+      "https://www.facebook.com/BrickyardBicycles/",
     ],
   };
 
