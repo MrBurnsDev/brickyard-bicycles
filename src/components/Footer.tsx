@@ -47,6 +47,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/trails-conservation"
+                  className="text-base text-primary-foreground/80 hover:text-accent transition-colors"
+                >
+                  Trails &amp; Conservation
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/about"
                   className="text-base text-primary-foreground/80 hover:text-accent transition-colors"
                 >

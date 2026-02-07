@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Cycling on Martha's Vineyard",
@@ -70,6 +71,12 @@ export default function CyclingPage() {
               </p>
               <p className="editorial-text">
                 Gravel and mountain bikes are especially well suited here, offering access to quieter routes and mixed terrain that many visitors never see. Conditions can change quickly, with sand and loose gravel appearing without warning, so tire choice and setup matter.
+              </p>
+              <p className="editorial-text">
+                Much of this trail access exists because of long-term conservation efforts.{" "}
+                <Link href="/trails-conservation" className="text-accent hover:underline">
+                  Learn more about trails and conservation on Martha&apos;s Vineyard
+                </Link>.
               </p>
             </div>
 
