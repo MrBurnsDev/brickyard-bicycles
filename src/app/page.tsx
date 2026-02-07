@@ -20,7 +20,14 @@ const services = [
   },
 ];
 
-const categories = ["Road", "Gravel", "Mountain", "Hybrid", "Kids", "Accessories"];
+const bikeTypes = [
+  { name: "Road", href: "/bikes/road" },
+  { name: "Gravel", href: "/bikes/gravel" },
+  { name: "Mountain", href: "/bikes/mountain" },
+  { name: "Hybrid", href: "/bikes/hybrid" },
+  { name: "Kids", href: "/bikes/kids" },
+  { name: "Accessories", href: "/bikes/accessories" },
+];
 
 const brands = ["Specialized", "Trek", "Cannondale", "Santa Cruz", "Salsa", "All-City"];
 
@@ -98,18 +105,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Product Categories */}
+      {/* Bike Types */}
       <section className="py-16 md:py-20 bg-card border-y border-border">
         <div className="container-site">
-          <h3 className="text-muted-foreground mb-8">Shop By Category</h3>
+          <h3 className="text-muted-foreground mb-8">Bike Types</h3>
           <div className="flex flex-wrap gap-x-8 gap-y-3">
-            {categories.map((category) => (
-              <span
-                key={category}
-                className="font-[var(--font-display)] text-2xl md:text-3xl uppercase tracking-tight text-foreground hover:text-accent transition-colors cursor-pointer"
+            {bikeTypes.map((type) => (
+              <Link
+                key={type.name}
+                href={type.href}
+                className="font-[var(--font-display)] text-2xl md:text-3xl uppercase tracking-tight text-foreground hover:text-accent transition-colors"
               >
-                {category}
-              </span>
+                {type.name}
+              </Link>
             ))}
           </div>
         </div>
