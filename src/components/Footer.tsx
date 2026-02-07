@@ -11,7 +11,7 @@ export default function Footer() {
               Brickyard Bicycles
             </h3>
             <p className="text-base text-primary-foreground/80 leading-relaxed">
-              An independent bike shop on Martha&apos;s Vineyard. Serving cyclists since the early days.
+              Service-driven bike shop on Martha&apos;s Vineyard. Decades of experience keeping bikes on the road.
             </p>
           </div>
 

@@ -4,19 +4,19 @@ import Image from "next/image";
 const services = [
   {
     title: "Repairs",
-    description: "From flat tires to full overhauls. We keep your bike rolling.",
+    description: "From flat tires to complete rebuilds. Decades of hands-on experience behind every fix.",
   },
   {
     title: "Tune-Ups",
-    description: "Seasonal maintenance and pre-ride checks to keep you safe.",
+    description: "Keep your bike running right with proper maintenance and pre-ride safety checks.",
   },
   {
-    title: "Bike Fitting",
-    description: "Dial in your position for comfort and performance.",
+    title: "Mobile Service",
+    description: "Can't come to us? We'll come to you. On-site repairs across the Island.",
   },
   {
-    title: "Rentals",
-    description: "Explore the island on quality bikes. Daily and weekly rates.",
+    title: "All Bikes Welcome",
+    description: "We service what you ride—no matter where you bought it.",
   },
 ];
 
@@ -46,8 +46,11 @@ export default function Home() {
               <br />
               Bicycles
             </h1>
-            <p className="text-xl md:text-2xl text-primary-foreground/90 mb-10 max-w-xl leading-relaxed">
-              An independent bike shop on Martha&apos;s Vineyard
+            <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 max-w-xl leading-relaxed">
+              Service-driven bike shop on Martha&apos;s Vineyard
+            </p>
+            <p className="text-lg text-primary-foreground/70 mb-10 max-w-lg leading-relaxed">
+              Professional bicycle repair and maintenance backed by decades of mechanical experience.
             </p>
             <div className="flex flex-wrap items-center gap-4">
               {/* TODO: Replace with actual Google Maps link */}
@@ -136,9 +139,9 @@ export default function Home() {
               <div className="divider-rule-accent" />
               <h2>Cycling on the Vineyard</h2>
               <p className="editorial-text max-w-lg">
-                Martha&apos;s Vineyard offers some of the finest cycling on the East
-                Coast. From quiet back roads to scenic coastal routes, there&apos;s
-                terrain for every rider.
+                Endless trails, quiet back roads, and scenic routes in every direction.
+                There&apos;s a reason this Island draws cyclists from everywhere—and
+                there&apos;s no bad ride to be found.
               </p>
               <Link href="/cycling-on-marthas-vineyard" className="btn btn-outline">
                 Explore Routes

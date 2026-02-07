@@ -4,11 +4,11 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Brickyard Bicycles is an independent bike shop on Martha's Vineyard. Quality bicycles, professional service, and honest advice.",
+    "Brickyard Bicycles is a service-driven bike shop on Martha's Vineyard. Decades of mechanical experience, honest advice, and a deep love for cycling.",
   openGraph: {
     title: "About | Brickyard Bicycles",
     description:
-      "An independent bike shop on Martha's Vineyard. We sell, service, and rent bicycles to locals and visitors alike.",
+      "A bike shop built on decades of hands-on experience and a lifelong connection to cycling.",
   },
 };
 
@@ -30,19 +30,47 @@ export default function AboutPage() {
             <div className="space-y-8 reading-width">
               <div className="space-y-6">
                 <div className="divider-rule-accent" />
-                <h2>A Bike Shop for the Island</h2>
+                <h2>In the Blood</h2>
               </div>
 
               <p className="editorial-text">
-                Brickyard Bicycles is an independent bike shop on Martha&apos;s Vineyard. We sell, service, and rent bicycles to locals and visitors alike.
+                Some people find bikes later in life. For us, it started early—learning to work a wrench before learning to drive, growing up in a family bike shop, absorbing everything there was to know about what makes a bicycle tick.
               </p>
 
               <p className="editorial-text">
-                We believe in quality work, fair prices, and honest advice. Every bike that leaves our shop has been inspected and adjusted to ride safely. We stock parts and accessories we trust, from brands we believe in.
+                That foundation led to decades in the industry: working with manufacturers, managing shops, and eventually landing on Martha&apos;s Vineyard. After years of working at established Island bike shops, Brickyard Bicycles became the natural next step—a chance to build something focused on what matters most.
+              </p>
+
+              <hr className="divider-rule my-10" />
+
+              <div className="space-y-6">
+                <h2 className="text-2xl md:text-3xl">Service First</h2>
+              </div>
+
+              <p className="editorial-text">
+                The bike industry has changed. More people are buying online, and that&apos;s fine—we&apos;re not here to fight it. What hasn&apos;t changed is that bikes need maintenance, repairs, and someone who knows what they&apos;re doing to keep them running right.
               </p>
 
               <p className="editorial-text">
-                Whether you&apos;re looking for your first road bike, need your beach cruiser tuned up, or want advice on where to ride, we&apos;re here to help.
+                That&apos;s where we come in. Brickyard Bicycles is built around service. We fix what&apos;s broken, tune what needs tuning, and help riders get the most out of their bikes—no matter where they bought them.
+              </p>
+
+              <p className="editorial-text">
+                We offer both in-shop and mobile service, because not everyone can make it to us. Wherever you are on the Island, we&apos;ll bring the tools and the expertise.
+              </p>
+
+              <hr className="divider-rule my-10" />
+
+              <div className="space-y-6">
+                <h2 className="text-2xl md:text-3xl">Why Here</h2>
+              </div>
+
+              <p className="editorial-text">
+                Martha&apos;s Vineyard is a special place to be in the bike business—and to be a cyclist. The trails, the back roads, the community of riders who care about this Island and how we get around it.
+              </p>
+
+              <p className="editorial-text">
+                We&apos;re involved in local efforts to make cycling safer and more accessible, while respecting what makes this place beautiful. It&apos;s the kind of work that only makes sense when you love where you live.
               </p>
 
               <hr className="divider-rule my-10" />
@@ -50,7 +78,7 @@ export default function AboutPage() {
               <div className="space-y-4">
                 <h3>Find Us</h3>
                 <p className="text-lg text-muted-foreground">
-                  We&apos;re located in the heart of Martha&apos;s Vineyard, open year-round for service and seasonally for full retail.
+                  We&apos;re in Tisbury, ready for service year-round. Stop by, or let us come to you.
                 </p>
                 <p className="text-lg text-foreground">
                   Martha&apos;s Vineyard, MA

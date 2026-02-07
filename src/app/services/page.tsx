@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Professional bicycle repair and service on Martha's Vineyard. Tune-ups, maintenance, and complete overhauls for road, gravel, and performance bikes.",
+    "Professional bicycle repair and service on Martha's Vineyard. Expert tune-ups, maintenance, and repairs—we service all bikes, no matter where you bought them.",
   openGraph: {
     title: "Services | Brickyard Bicycles",
     description:
-      "Professional bicycle repair and service on Martha's Vineyard. Quality work by experienced mechanics.",
+      "Professional bicycle repair and service on Martha's Vineyard. Decades of mechanical experience behind every repair.",
   },
 };
 
@@ -15,7 +15,7 @@ const serviceCategories = [
   {
     title: "Repairs",
     description:
-      "We fix what's broken and prevent what could break. From simple flat repairs to complex drivetrain rebuilds, our mechanics have the experience to get you back on the road.",
+      "We fix what's broken and catch what's about to break. With decades of hands-on mechanical experience, we handle everything from simple fixes to complex rebuilds. Your bike is in good hands.",
     items: [
       "Flat tire repair & tube replacement",
       "Brake adjustment & pad replacement",
@@ -28,7 +28,7 @@ const serviceCategories = [
   {
     title: "Tune-Ups",
     description:
-      "Regular maintenance keeps your bike safe and performing at its best. We offer tiered service packages to match your riding frequency and needs.",
+      "Regular maintenance keeps your bike safe and performing its best. We offer service packages matched to how you ride—from quick safety checks to complete teardowns.",
     items: [
       "Safety check — brakes, tires, quick releases",
       "Basic tune — plus shifting adjustment",
@@ -37,9 +37,20 @@ const serviceCategories = [
     ],
   },
   {
-    title: "Performance Bikes",
+    title: "Mobile Service",
     description:
-      "We stock quality road, gravel, and mountain bikes from trusted brands. Whether you're looking for your first serious bike or upgrading your current ride, we'll help you find the right fit.",
+      "Can't make it to the shop? We bring the tools to you. Our mobile service covers the Island, so you can get professional repairs wherever you are.",
+    items: [
+      "On-site repairs at your location",
+      "Fleet and rental maintenance",
+      "Event support",
+      "Seasonal tune-ups at home",
+    ],
+  },
+  {
+    title: "All Bikes Welcome",
+    description:
+      "We service what you ride. It doesn't matter where you bought your bike—online, off-Island, or from a friend. If it has two wheels and pedals, we'll keep it running right.",
     items: [
       "Road bikes",
       "Gravel & adventure bikes",
@@ -52,7 +63,7 @@ const serviceCategories = [
   {
     title: "Accessories & Gear",
     description:
-      "Everything you need to ride safely and comfortably. From helmets to water bottles, we carry gear we trust and use ourselves.",
+      "We carry the gear you need to ride safely and comfortably. Helmets, lights, locks, and more—all products we trust and use ourselves.",
     items: [
       "Helmets",
       "Lights & reflectors",
@@ -72,7 +83,7 @@ export default function ServicesPage() {
         <div className="container-site">
           <h1 className="text-primary-foreground">Services</h1>
           <p className="text-xl text-primary-foreground/80 mt-4 max-w-xl">
-            Quality work by experienced mechanics. We treat every bike like it&apos;s our own.
+            Service is what we do best. Decades of mechanical experience, applied to keeping your bike on the road.
           </p>
         </div>
       </section>
@@ -122,7 +133,7 @@ export default function ServicesPage() {
           <div className="reading-width mx-auto text-center space-y-4">
             <h3>Questions?</h3>
             <p className="editorial-text">
-              Stop by the shop or give us a call. We&apos;re happy to discuss what your bike needs.
+              Stop by the shop or reach out. We&apos;re happy to talk through what your bike needs—no pressure, just honest advice.
             </p>
           </div>
         </div>
